@@ -1,4 +1,4 @@
-#!/bin/bash -e
+#!/bin/bash -xe
 echo "Hello World"
 function check_os {
 	check=$(uname -mrs | cut -d ' ' -f1)
