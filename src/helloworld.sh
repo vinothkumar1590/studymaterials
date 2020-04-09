@@ -10,4 +10,8 @@ function check_os {
   echo "OS is Darwin Variant"
   fi
   }
+  function check_hostname {
+    hostname
+    }
+  check_hostname  
   check_os
