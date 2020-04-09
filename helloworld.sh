@@ -2,10 +2,10 @@
 echo "Hello World"
 function check_os {
   OS=$(uname -mrs | cut -d ' ' -f1)
-  if [ $check == Linux ]
+  if [[ $OS == Linux ]];
   then
   echo "OS is Linux Variant"
-  elif [ $check == Darwin ]
+  elif [[ $OS == Darwin ]];
   then
   echo "OS is Darwin Variant"
   fi
